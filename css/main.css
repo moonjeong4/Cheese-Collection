@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f2f3ec;
+  /* #93AAAA;
+  #5a7c7c;
+  #f2f3ec;
+  #cedad1; */
+  /* #333; */
+  color: #47474e;
+}
+
+@font-face {
+  font-family: cheese;
+  src: url(../img/BigCheese.ttf);
+}
+
+header {
+  background-color: black;
+  padding: 1%;
+}
+
+header div {
+  background-color: black;
+  color: #ed7902;
+  font-size: 3rem;
+  font-family: cheese;
+}
+
+.logo {
+  background-image: url(../img/logo.png);
+  background-size: cover;
+  width: 350px;
+  height: 70px;
+}
+
+.flex-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#slideshow {
+  width: 98.96vw;
+  height: 51.5vh;
+  position: relative;
+}
+
+.slideshow-image {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  transition-duration: 300ms;
+}
+
+.menu {
+  font-size: 1.5rem;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1%;
+}
+
+li {
+  background-color: black;
+  list-style: none;
+}
+
+a:not(.logout) {
+  text-decoration: none;
+  background-color: black;
+  /* color: #ed7902; */
+  color: #93aaaa;
+  font-size: 2rem;
+  font-family: cheese;
+}
+
+a:hover {
+  font-family: "Times New Roman", Times, serif;
+  /* text-shadow: 0 0 10px white; */
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: palevioletred;
+}
+
+h2 {
+  margin-top: 7%;
+  text-align: center;
+  font-size: 2rem;
+}
+
+footer {
+  margin-top: 7%;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.flex {
+  margin: 10% 5% 4% 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 7%;
+}
+
+img {
+  border: 5px #93aaaa solid;
+  width: 45vw;
+}
+
+p {
+  text-indent: 2rem;
+  padding: 1%;
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.flex + p {
+  margin: 0 5%;
+}
+
+table {
+  margin: 14% auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  font-size: 1.3rem;
+  border: 2px solid #93aaaa;
+  padding: 8px;
+  text-align: center;
+}
