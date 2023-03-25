@@ -5,8 +5,8 @@ $db = 'FinalPHP';
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
-$user = "dbuser";
-$pass = "ku7qmX1[x[*hezZy";
+$user = "xxxxxx";
+$pass = "xxxxxx";
 
 $options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;
 $options[PDO::ATTR_DEFAULT_FETCH_MODE] = PDO::FETCH_ASSOC;
